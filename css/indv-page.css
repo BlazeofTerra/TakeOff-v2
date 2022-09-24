@@ -1,0 +1,12 @@
+#contactInfo {
+	width: 90%;
+	margin: 0 5%;
+	float: left;
+}
+
+#contactInfo p {
+	width: 33.333%;
+	float: left;
+	display: block;
+	text-align: center;
+}

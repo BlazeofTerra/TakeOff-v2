@@ -1,0 +1,46 @@
+Options -Indexes
+Options +FollowSymLinks -MultiViews
+
+# Turn Rewrite Engine On
+RewriteEngine On
+
+SetEnvIfNoCase User-Agent "^libwww-perl*" block_bad_bots
+Deny from env=block_bad_bots
+
+RewriteCond %{HTTP_USER_AGENT} libwww [NC,OR]
+
+RewriteCond %{QUERY_STRING} ^(.*)=http [NC]
+
+RewriteRule ^(.*)$ – [F,L]
+
+
+# NC makes the rule non case sensitive
+# L makes this the last rule that this specific condition will match
+
+ErrorDocument 404 /error-404.php
+
+RewriteRule ^About-Us about.php [NC,L]
+RewriteRule ^Business-Edit bus-edit.php [NC,L]
+RewriteRule ^Business-Registration-End bus-reg-end.php [NC,L]
+RewriteRule ^Business-Registration-Payment bus-reg-payment.php [NC,L]
+RewriteRule ^Business-Registration-Preview bus-reg-preview.php [NC,L]
+RewriteRule ^Business-Registration bus-reg.php [NC,L]
+RewriteRule ^Business-Page business-page.php [NC,L]
+RewriteRule ^Contact-Us contact.php [NC,L]
+RewriteRule ^Faq faq.php [NC,L]
+RewriteRule ^Home index.php [NC,L]
+RewriteRule ^Individual-Edit indv-edit.php [NC,L]
+RewriteRule ^Individual-Registration indv-reg.php [NC,L]
+RewriteRule ^Office-Edit office-edit.php [NC,L]
+RewriteRule ^Office-Registration office-reg.php [NC,L]
+RewriteRule ^Post-Create-End post-create-end.php [NC,L]
+RewriteRule ^Post-Create-Payment post-create-payment.php [NC,L]
+RewriteRule ^Post-Create-Preview post-create-preview.php [NC,L]
+RewriteRule ^Post-Create post-create.php [NC,L]
+RewriteRule ^Post-Edit post-edit.php [NC,L]
+RewriteRule ^Post-Page post-page.php [NC,L]
+RewriteRule ^Representative-Create rep-create.php [NC,L]
+RewriteRule ^Representative-Edit rep-edit.php [NC,L]
+RewriteRule ^Representative-Registration rep-reg.php [NC,L]
+RewriteRule ^Terms-and-Conditions tnc.php [NC,L]
+RewriteRule ^Representative-Registration rep-reg.php [NC,L]

@@ -1,0 +1,74 @@
+html {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #FFFFFF;
+	margin: 0;
+}
+
+#outerWrapper {
+	width: 100%;
+	margin: 0;
+	float: left;
+}
+
+/*****************************
+ *****************************
+ * WRAPPER 
+ */
+
+
+#wrapper{
+    width: 1400px;
+    margin: 0 calc(50% - 700px);
+    clear: both;
+    float: left;
+    
+    background-color: #dfdcdc;
+}
+
+@media screen and (max-width: 1410px) {
+	#wrapper{
+		width: 100%;
+		margin: 0px;
+	}
+}
+
+/**************************************************************************
+ **************************************************************************
+ ************************************************************************** 
+ */
+
+body {
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.875em;
+}
+
+p, span {
+    font-size: 1em;
+}
+
+.imageWidth {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+
+.imageHeight {
+	height: 100%;
+	width: auto;
+	margin: auto;
+	text-align: center;
+	display: block;
+	float: none !important;
+}

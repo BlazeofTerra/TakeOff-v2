@@ -1,0 +1,116 @@
+#post-back {
+	width: 100%;
+	float: left;
+	background-color: lightblue;
+}
+
+#post-info{
+	width: 70%;
+	height: 100%;
+	float: left;
+	margin: 0 15%;
+	color: #FFFFFF;
+}
+
+#name-item{
+	width: 100%;
+	height: 120px;
+	padding: 0;
+	background-color: #005073;
+}
+
+#logoHolder {
+	width: 213px;
+	height: 120px;
+	float: left;
+	background-color: black;
+}
+
+#nameHolder {
+	width: calc(100% - 213px);
+	height: 120px;
+	float: right;
+}
+
+#nameHolder h1{
+	text-align: center;
+	margin: 40px 0px;
+	font-size: 2.2em;
+	font-weight: 400;
+}
+
+#item-carouselle{
+	width: 100%;
+}
+
+#item-information{
+	width: 100%;
+	float: left;
+	background-color: #005073;
+}
+
+#basic-info {
+	width: 100%;
+	margin: 15px 0;
+	font-weight: 400;
+	text-align: center;
+}
+
+.basic-info-contact {
+	width: 100%;
+	margin: 15px;
+	text-align: center;
+}
+
+#offices {
+	width: 100%;
+	float: left;
+}
+
+.office {
+	width: 100%;
+}
+
+.office h3 {
+	width: 100%;
+	margin: 0px;
+	padding: 20px 0;
+	font-weight: 400;
+	text-align: center;
+	background-color: black;
+}
+
+.office-content {
+	display: none;
+}
+
+.office-show {
+	display: block;
+}
+
+.reps {
+	width: 90%;
+	margin: 0 5%;
+	float: left;
+}
+
+.rep {
+	width: 25%;
+	float: left;
+}
+
+#content-text{
+	width: calc(100% - 40px);
+	float: left;
+	background-color: #1C7196;
+	padding: 20px;
+}
+
+/*#side-bar{
+	width: 27%;
+	float: right;
+	height: 750px;
+	background-color: blue;
+	margin-left: 3%;
+}*/
+						

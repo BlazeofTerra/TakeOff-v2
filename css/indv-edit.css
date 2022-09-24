@@ -1,0 +1,263 @@
+#formWrapper {
+	width: 70%;
+	margin: 40px 15%;
+	float: left;
+	background-color: #1C7196;
+}
+
+#formWrapper h1 {
+	width: 100%;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 400;
+	margin: 0;
+	padding: 15px 0;
+	background-color: #005073;
+}
+
+#errorHolder {
+	width: 80%;
+	float: left;
+	margin: 0 10%;
+}
+
+#errorHolder p {
+	width: 100%;
+	margin: 0;
+	color: #FF0000;
+	text-align: center;
+	background: #005073;
+}
+
+.inputContainer {
+	width: 80%;
+	float: left;
+	margin: 20px 10%;
+}
+
+.inputContainer h2 {
+	width: 100%;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 400;
+	margin: 0;
+	padding: 15px 0;
+	background-color: #005073;
+	border: 1px solid #000000;
+}
+
+.inputRow {
+	width: 100%;
+	height: 52px;
+	padding: 5px 0;
+	margin: 0;
+	float: left;
+	background-color: #005073;
+	border: 1px solid #000000;
+	border-top: 0;
+}
+
+.inputRow label {
+	width: 48%;
+	float: left;
+	padding-left: 10px;
+	margin: 17px 0;
+	color: #FFFFFF;
+}
+
+.inputRow input {
+	width: 48%;
+	margin: 14px 0;
+}
+
+.inputRow select {
+	margin: 14px 0;
+}
+
+.checkTick,.checkCross {
+	margin: 17px 0;
+	float: right;
+}
+
+.logoHolderOuter {
+	width: 100%;
+	padding: 20px 0;
+	margin: 0;
+	float: left;
+	background-color: #005073;
+	border: 1px solid #000000;
+	border-top: 0;
+}
+
+.logoHolder {
+	width: 300px !important;
+	margin: auto;
+}
+
+.imageHolder { 
+	width: 300px;
+	height: 169px;
+	float: left;
+	background-color: #999999;
+}
+
+.uploaderButton {
+	width: 100px;
+	margin: 0;
+	float: left;
+}
+
+.html5fileupload {
+	width: 300px !important;
+	height: 169px;
+	float: none;
+	clear: both;
+	border: 0px !important;
+}
+
+#categoryWrapper {
+	width: 100%;
+	padding: 0 0;
+	margin: 0;
+	float: left;
+	background-color: #005073;
+	border: 1px solid #000000;
+	border-top: 0;
+}
+
+.categoryHeadersHolder {
+	width: 100%;
+	margin: 0;
+	float: left;
+	background-color: #005073;
+}
+
+.categoryHeaders {
+	width: 50%;
+	float: left;
+	color: #FFFFFF;
+	font-weight: 400;
+	text-align: center;
+}
+
+.categoryHolder {
+	width: 100%;
+	margin: 0;
+	float: left;
+	background-color: #005073;
+}
+
+.categories {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.subCategories {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.categories select, .subCategories select {
+	width: 60%;
+	margin: 0 0 10px 0;
+}
+
+.minus, .plus {
+	font-size: 19px;
+	margin: 0px;
+	float: right;
+	color: #FFFFFF;
+}
+
+.slideImageHolder {
+	width: 100%;
+	margin: 0;
+	padding: 0 0;
+	float: left;
+	background-color: #005073;
+	border: 1px solid #000000;
+	border-top: 0;
+}
+
+.imageHolder img {
+	margin: auto;
+	display: block;
+}
+
+.slideImageUploader {
+	width: 300px;
+	margin: 0 46px;
+	padding: 20px 0;
+	float: left;
+}
+
+.descHolder {
+	width: 100%;
+	float: left;
+	margin: 0;
+	border: 1px solid #000000;
+}
+
+#termsHolder {
+	width: 81%;
+	float: left;
+	margin: 0 9.5%;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#submitHolder {
+	width: 81%;
+	float: left;
+	margin: 20px 9.5%;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#submit {
+	
+}
+
+
+
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+	.slideImageUploader {
+	    width: 300px !important;
+	    margin: auto !important;
+	    padding: 20px 0;
+	    float: none !important;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+	#formWrapper {
+	    width: 95%;
+	    margin: 40px 2.5%;
+	    float: left;
+	    background-color: #1C7196;
+	}
+	.slideImageUploader {
+	    width: 300px !important;
+	    margin: auto !important;
+	    padding: 20px 0;
+	    float: none !important;
+	}	
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+	#formWrapper {
+	    width: 95%;
+	    margin: 40px 2.5%;
+	    float: left;
+	    background-color: #1C7196;
+	}
+	.slideImageUploader {
+	    width: 300px !important;
+	    margin: auto !important;
+	    padding: 20px 0;
+	    float: none !important;
+	}	
+}

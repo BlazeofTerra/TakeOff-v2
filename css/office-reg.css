@@ -1,0 +1,191 @@
+#formWrapper {
+	width: 70%;
+	margin: 40px 15%;
+	float: left;
+	background-color: #1C7196;
+}
+
+#formWrapper h1 {
+	width: 100%;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 400;
+	margin: 0;
+	padding: 15px 0;
+	background-color: #005073;
+}
+
+.inputContainer {
+	width: 80%;
+	float: left;
+	margin: 20px 10%;
+}
+
+.inputContainer h2 {
+	width: 100%;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 400;
+	margin: 0;
+	padding: 15px 0;
+	background-color: #005073;
+	border: 1px solid #000000;
+}
+
+.inputRow {
+	width: 100%;
+	height: 52px;
+	padding: 5px 0;
+	margin: 0;
+	float: left;
+	background-color: #005073;
+	border: 1px solid #000000;
+	border-top: 0;
+}
+
+.inputRow label {
+	width: 48%;
+	float: left;
+	padding-left: 10px;
+	margin: 17px 0;
+	color: #FFFFFF;
+}
+
+.inputRow input {
+	width: 48%;
+	margin: 14px 0;
+}
+
+.logoHolder {
+	width: 90%;
+	padding: 20px 5px;
+	margin: 0 5% 0 5%;
+	float: left;
+	background-color: #005073;
+	border: 1px solid #000000;
+	border-top: 0;
+}
+
+.logoHolder img {
+	display: block;
+	margin: auto;
+	float: none;
+}
+
+.categoryHeadersHolder {
+	width: 90%;
+	margin: 0 5%;
+	float: left;
+	background-color: #005073;
+}
+
+.categoryHeaders {
+	width: 50%;
+	float: left;
+	color: #FFFFFF;
+	font-weight: 400;
+	text-align: center;
+}
+
+.categoryHolder {
+	width: 90%;
+	margin: 0 5%;
+	float: left;
+	background-color: #005073;
+}
+
+.categories {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.subCategories {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.categories select , .subCategories select {
+	width: 40%;
+}
+
+.slidePicOuter {
+	width: 90%;
+	margin: 0 5% 0 5%;
+	float: left;
+	background-color: #005073;
+	border: 1px solid #000000;
+	border-top: 0;
+}
+
+.slidePicInner {
+	width: 50%;
+	padding: 20px 0;
+	float: left;
+}
+
+.slidePicInner img {
+	display: block;
+	margin: auto;
+	float: none;
+}
+
+.descHolder {
+	width: 90%;
+	float: left;
+	margin: 0 5%;
+}
+
+#termsHolder {
+	width: 81%;
+	float: left;
+	margin: 0 9.5%;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#submitHolder {
+	width: 81%;
+	float: left;
+	margin: 20px 9.5%;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#submit {
+	
+}
+
+#offices {
+	width: 100%;
+	float: left;
+}
+
+#curOffices {
+	text-align: center;
+}
+
+.office {
+	width: 70%;
+	margin: auto;
+}
+
+.office h3 {
+	width: 100%;
+	margin: 0px;
+	padding: 20px 0;
+	font-weight: 400;
+	text-align: center;
+	background-color: black;
+	color: #FFFFFF;
+}
+
+.office-content {
+	display: none;
+}
+
+.office-show {
+	display: block;
+}
+

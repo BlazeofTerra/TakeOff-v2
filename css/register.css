@@ -1,0 +1,388 @@
+.content-register{
+	width: 95%;
+	margin: 2.5%;
+	height: 100%;
+}
+
+.heading-register{
+	width: 100%;
+	height: 75px;
+}
+
+.heading-reg-heading{
+	text-align: center;
+	color: white;
+	padding-top: 12.5px;
+}
+					
+.reg-type-content{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+.reg-type-item{
+	width: 450px;
+	border: 1px solid black;
+	background-color: ;
+	margin-top: 25px;
+	margin-bottom: 12.5px;
+	padding: 0px;
+}
+.reg-type{
+	text-align: center;
+	color: white;
+	background-color: #005073;
+	margin: 0;
+}
+.reg-cost{
+	text-align: center;
+	color: white;
+	background-color: #1c7196;
+	margin: 0;
+}
+.reg-info{
+	width: 95%;
+	height: 425px;
+	margin: 2.5%;
+}
+
+.reg-info-item{
+	width: 90%;
+	height: auto;
+	font-size: 18px;
+	margin: 2.5%;
+	padding: 2.5%;
+	border: 1px solid #FFFFFF;
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#buttonWrapper {
+	width: 100%;
+	float: left;
+	background-color: #005073;
+}
+
+#regTitle {
+	width: 600px;
+	float: left;
+	margin: 0 calc(50% - 300px);
+}
+
+#regTitle h1 {
+	color: #FFFFFF;
+	margin: 0;
+	text-align: center;
+	font-weight: 400;
+}
+
+#buttonHolder {
+	width: 600px;
+	float: left;
+	margin: 0 calc(50% - 300px);
+}
+
+#userReg, #busReg {
+	width: 290px;
+}
+
+#userReg h2, #busReg h2 {
+	margin: 0;
+	font-weight: 400;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#userReg p, #busReg p {
+	color: #FFFFFF;
+}
+
+#userReg {
+	float: left;
+}
+
+#busReg {
+	float: right;
+}
+
+#wrapperAlt {
+	width: 100%;
+	padding: 0 0 40px 0;
+	background: #dfdcdc;
+	display: inline-block;
+	overflow: hidden;
+
+}
+
+#choiceWrapper {
+	width: 660px;
+	margin: 40px auto 0 auto;
+}
+#header {
+	text-align: center;
+}
+.singleChoice {
+	float: none !important;
+	margin: auto !important;
+}
+
+.header {
+	width: 100%;
+	font-size: 28px;
+	margin: 0 0 0 0;
+	padding: 8px;
+	text-align: center;
+	background: #005073;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.prices {
+	padding: 4px;
+	font-size: 16px;
+	text-align: center;
+	background: #005073;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.infoArea {
+	padding: 10px;
+	font-size: 15px;
+	background: #1c7196
+
+}
+
+.infoArea p {
+	padding: 2px 6px;
+	background: #005073;
+	border: 1px solid #111111;
+}
+
+.priceTable {
+	width: 100%;
+	margin: auto;
+	border: 1px solid #005073;
+	border-bottom: 0px;
+	overflow: hidden;
+}
+
+.priceTable p {
+	margin: 0px;
+	padding: 0px;
+	font-size: 17px;
+	text-align: center;
+	background: #005073;
+	border: 0px;
+}
+
+.priceTable th {
+	font-size: 15px !important;
+	border-right: 1px solid #005073;
+}
+
+.priceTable th, td {
+	width: 50%;
+	font-size: 14px;
+	padding: 7px 5px;
+	font-weight: lighter;
+	padding-left: 20px;
+	border-bottom: 1px solid #005073;
+}
+
+.background1 {
+	background: #005073;
+}
+
+.background2 {
+	background: #005073;
+}
+
+.background3 {
+	background: #005073;
+}
+
+.borderRight {
+	border-right: 1px solid #005073;
+}
+
+#userChoice {
+	float: left;
+	height: 613px;
+
+}
+
+#userPush {
+
+}
+
+#compChoice {
+	float: right;
+
+}
+
+.choiceButton {
+	width: 300px;
+	color: #FFFFFF;
+	background: #1c7196;
+	overflow: hidden;
+	border: 1px solid #FFFFFF;
+}
+.choiceButton:hover .header {
+	color: black;
+	border-bottom: 1px solid black;
+	background: #FFFFFF;
+}
+
+.choiceButton:hover .prices {
+	background: #005073;
+}
+
+.topInfo {
+
+}
+
+.bottomInfo {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #111111 !important;
+
+}
+
+/* Inner-choice button CSS 
+
+.choiceButton h3 {
+	font-size: 22px;
+	margin: 0px;
+	text-align: center;
+}
+
+@media (min-width: 0px) and (max-width: 990px) {
+	.mobileDropdowns {
+		border: 1px solid #FFFFFF !important;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 1659px) {
+	.content {
+		width: 100% !important;
+	}
+	
+	#sidebar {
+		width: 0;
+		display: none !important;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 989px) {
+	.content {
+		width: 95% !important;
+	}
+	
+	#sidebar {
+		width: 0;
+		display: none !important;
+	}
+	/*
+	.userRowCell{
+		width: 95% !important;
+		margin: 0 !important;
+	}
+	.labelAlignerLeft{
+		width: 69% !important;
+		float: none !important;
+	}
+	
+	.labelAlignerRight{
+		float: none !important;
+	}
+	
+	.rowEnd{
+		display: none !important;
+	}
+	.userRow{
+		margin: 0 15.5% !important;
+	}
+	
+	
+	.userRow{
+		width: 100% !important;
+		margin: 0 !important;
+	}
+	
+	.left{
+		width: 95% !important;
+		margin: 0 !important;
+	}
+	.right{
+		width: 95% !important;
+		margin: 0 !important;
+	}
+	.labelAlignerLeft{
+		width: 75% !important;
+		margin: 0 !important;
+		float: none !important;
+		margin: 0 12.5% 2% 12.5% !important;
+	}
+	.labelAlignerRight{
+		width: 75% !important;
+		margin: 0 !important;
+		float: none !important;
+		margin-bottom: 2% !important;
+		margin: 0 12.5% 2% 12.5% !important;
+	}
+	.labelAlignerLeft label{
+		width: 50% !important;
+		text-align: left !important;	
+	}	
+	
+	.labelAlignerRight label{
+		width: 50% !important;	
+		text-align: left !important;
+	}	
+	.bottom {
+    margin-bottom: 2% !important; 
+	}
+	
+	#choiceWrapper{
+		width: 95% !important;
+		max-width: 95% !important;
+	}
+	
+	#userChoice{
+		width: 75% !important;
+		max-width: 75% !important;
+		margin: 0  12.5%  4% 12.5% !important;
+		float: none !important;
+		height: 528px !important;
+	}
+	
+	#compChoice{
+		width: 75% !important;
+		max-width: 75% !important;
+		margin: 0  12.5%  4% 12.5% !important;
+		float: none !important;
+	}
+
+	
+}
+
+*/

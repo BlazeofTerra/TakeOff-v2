@@ -1,0 +1,145 @@
+#Upper-Nav-Bar{
+	width: 100%;
+	height: 54px;
+	background-color: #123456;
+	color: #FFFFFF;
+	float: right;
+	font-family: 'Raleway', sans-serif;
+}
+
+#Left-Side{
+	float: left;
+}
+
+#Logo{
+	height: 54px;
+	width: auto;
+	float: left;
+}
+
+#Logo-Text{
+	width: 277px;
+	font-size: 20px;
+	margin: 15.5px 0;
+	text-align: left;
+	font-weight: 400;
+	display: inline-block;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+} /* 814 width breaks */
+
+#search {
+	float: right;
+	margin: 14px 14px 0px 0px; 
+	padding-bottom: 0;
+}
+
+/* DO NOT TOUCH THIS */
+#search input {
+	float: left;
+	display: block;
+	border: 0;
+}
+#search select {
+	float: left;
+	display: block;	
+	
+}	
+#searchIndex {
+	height: 24px;
+	font-size: 14px;
+	width: 210px;
+	background-color:#456789;
+	color: white;
+}
+
+#searchDropdown {
+	height: 26px;
+	width: 134px;
+	font-size: 14px;
+	border: 0;
+	background-color:#345678;
+	color: white;
+}
+
+#searchImage {
+	height: 24px;
+	width: 24px;
+	padding: 2px;
+	border: 0;
+	background-color: #123456;
+}
+
+#searchImage img {
+	height: 24px;
+	width: 24px;
+	padding: 0;
+	border: 0;
+	background-color: #123456;
+}
+
+#Right-Side-Upper {
+	display: block;
+	height: 70px;
+	margin: 0;
+	float: right;
+}
+
+#Nav-Bar-Buttons-Upper {
+	height: 70px;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	z-index: 9997;
+}
+
+#Nav-Bar-Buttons-Upper li {
+	display: inline-block;
+	color: #FFFFFF;
+	width: 132px;
+	padding: 16px 0;
+	font-size: 1.20em;
+	text-align: center;
+	font-weight: 400;
+	float: right;
+	cursor: pointer;
+	box-sizing: inherit;
+	margin: 0px;
+}
+
+#Nav-Bar-Buttons-Upper li:hover {
+  color: #005073;
+  background-color: #FFFFFF;
+}
+
+/*
+@media (min-width: 0) and (max-width: 768px) {
+	#search {
+		display: none;
+	}
+}
+*/
+@media (min-width: 0) and (max-width: 320px) {
+	#Logo{
+		width: 60px;
+		height: auto;
+		color: green;
+		padding-top: 11px;
+		padding-left: 5px;
+	}
+	#Logo-Text{
+		width: 160px;
+		font-size: 20px;
+		margin: 0;
+		padding-top: 5px;
+		padding-left: 10px;
+		text-align: center;
+		display: inline-block;
+	} 
+	#search{
+		display: none;
+	}
+	
+	#Right-Side-Upper {
+		width: 50px !important;
+	}
+}

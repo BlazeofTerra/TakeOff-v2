@@ -1,0 +1,41 @@
+#paymentHolder {
+	width: 90%;
+	margin: 0 5%;
+	float: left;
+	background-color: #005073;
+}
+
+#inputs {
+	text-align: center;
+}
+
+#inputs label {
+	width: 90px;
+	color: #FFFFFF;
+	text-align: left;
+	display: inline-block;
+}
+
+#inputs label, #inputs input {
+	margin: 5px 0;
+}
+
+#paymentOptions h2 {
+	width: 50%;
+	margin: 0;
+	color: #FFFFFF;
+	float: left;
+	text-align: center;
+	font-weight: 400;
+	padding: 10px 0;
+}
+
+.payment {
+	width: 50%;
+	float: left;
+	padding: 0;
+}
+
+.payment input {
+	margin: 20px calc(50% - 13px);
+}

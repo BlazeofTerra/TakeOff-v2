@@ -1,0 +1,136 @@
+footer {
+	width: 100%;
+	float: left;
+	color: #FFFFFF;
+	padding: 0;
+	background-color: #005073;
+}
+
+#Footer-Contents {
+	width: 100%;
+	padding: 0;
+	float: left;
+}
+
+#Footer-Contents ul {
+	width: 60%;
+	padding: 0;
+	margin: auto;
+	clear: both;
+}
+
+#Footer-Contents ul li {
+	width: 25%;
+	color: #FFFFFF;
+	padding: 20px 0;
+	margin: 0;
+	text-align: center;
+	display: block;
+	list-style: none;
+	float: left;
+	cursor: pointer;
+	transition-property: all;
+  	transition-duration: .6s;
+  	transition-timing-function: ease;
+}
+
+#Footer-Contents ul li:hover {
+  letter-spacing: 3px;
+  color: #005073;
+  background-color: #FFFFFF;
+}
+
+#Copyright {
+	width: 100%;
+	float: left;
+}
+
+#Copyright p {
+	text-align: center;
+	margin: 0;
+	margin: 20px 0;
+}
+
+#Made-By {
+	width: 100%;
+	float: left;
+}
+
+#Made-By p {
+	width: 300px;
+	margin: auto;
+	display: block;
+	padding: 20px 0;
+	cursor: pointer;
+	text-align: center;
+	transition-property: all;
+  	transition-duration: .6s;
+  	transition-timing-function: ease;
+}
+
+#Made-By p:hover {
+	letter-spacing: 1px;
+  	color: #005073;
+  	background-color: #FFFFFF;
+}
+
+#Bspan {
+	color: #00e5ff !important;
+}
+
+#Aspan {
+	color: #76ff03 !important;
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+	#Footer-Contents ul {
+		width: 100%;
+	}
+	
+	#Footer-Contents ul li:hover {
+	  	letter-spacing: 2px;
+	}
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+	#Footer-Contents ul {
+		width: 100%;
+	}
+	
+	#Footer-Contents ul li {
+	  	width: 50%;
+	}
+	
+	#Footer-Contents ul li:hover {
+	  	letter-spacing: 3px;
+	}
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+	#Footer-Contents ul {
+		width: 100%;
+	}
+	
+	#Footer-Contents ul li {
+	  	width: 50%;
+	}
+	
+	#Footer-Contents ul li:hover {
+	  	letter-spacing: 3px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	#Footer-Contents ul {
+		width: 100%;
+	}
+	
+	#Footer-Contents ul li {
+	  	width: 50%;
+	}
+	
+	#Footer-Contents ul li:hover {
+	  	letter-spacing: 3px;
+	}
+}
+

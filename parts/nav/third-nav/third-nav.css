@@ -1,0 +1,33 @@
+#thirdNav {
+	width: 100%;
+	background-color: #000000;
+	margin: 0;
+	float: left;
+}
+
+#thirdNavButtons{
+	display: inline-block;
+	float: left;	
+	padding: 0;
+	margin: 0;
+}
+
+#thirdNavButtons li{
+	display: inline-block;
+	color: #FFFFFF;
+	padding: 12px 10px;
+	font-size: 1em;
+	text-align: center;
+	font-weight: 400;
+	float: left;
+	cursor: pointer;
+	transition-property: all;
+  	transition-duration: .6s;
+  	transition-timing-function: ease;
+}
+
+#thirdNavButtons li:hover{
+	letter-spacing: 2px;
+	color: #1c7196;
+	background-color: white;
+}

@@ -1,0 +1,210 @@
+.Post-Container {
+	width: calc(100% - 100px);
+	float: left;
+	padding: 0 50px;
+	background-color: #1C7196;
+}
+
+.Post-Wrapper {
+	width: 100%;
+	float: left;
+}
+
+.Post {
+	float: left;
+	width: 400px;
+	height: 420px;
+	margin: 20px 50px 20px 0;
+	cursor: pointer;
+	color: #FFFFFF;
+	background-color: #005073;
+}
+
+.Post-Right-3 {
+	margin: 20px 0 20px 0;
+}
+
+.Post-Header {
+	margin: 15px 0;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: 400;
+}
+
+.Post-Top {
+	width: 100%;
+	height: 225px;
+}
+
+.Post-Img-Holder {
+	width: 100%;
+	height: 225px;
+	float: left;
+}
+
+.Post-Desc {
+	width: 380px;
+	height: 225px;
+	position: absolute;
+	display: block;
+	opacity: 0;
+	z-index: 6;
+	padding: 0 10px;
+	transition:opacity 0.2s linear;
+}
+
+.Post-Desc-Background {
+	width: 380px;
+	height: 225px;
+	position: absolute;
+	display: block;
+	opacity: 0;
+	z-index: 5;
+	padding: 0 10px;
+	background-color: #000000;
+	transition:opacity 0.2s linear;
+}
+
+.Post-Desc p {
+	z-index: 6;
+	opacity: 1;
+}
+
+.Post-Desc-Mobile {
+	width: calc(100% - 20px);
+	padding: 5px 10px;
+	display: none;
+}
+
+.Post:hover .Post-Top .Post-Desc-Background {
+	opacity: 0.7;
+}
+
+.Post:hover .Post-Top .Post-Desc {
+	opacity: 1;
+}
+
+.Post-Bottom {
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+
+.Post-Bottom p {
+	font-weight: 400;
+	font-size: 1.2em;
+}
+
+.Post-Seller {
+	width: 100%;
+	float: left;
+}
+
+.Post-Seller:hover {
+	background-color: #000000;
+}
+
+.Post-Seller p {
+	margin: 9.5px 0;
+}
+
+.editButtons {
+	width: 100%;
+	float: left;
+}
+
+.editButtons button {
+	width: 20%;
+}
+
+@media (min-width: 1025px) and (max-width: 1399px) {
+	.Post-Wrapper {
+		width: 850px;
+		margin-left: calc(50% - 425px);
+		margin-right: calc(50% - 425px);
+	}
+	
+	.Post {
+		margin: 20px 50px 20px 0;
+	}
+	
+	.Post-Right-2 {
+		margin: 20px 0 20px 0 !important;
+	}
+	
+	.Post-Right-3 {
+		margin: 20px 50px 20px 0;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+	.Post-Wrapper {
+		width: 400px;
+		margin-left: calc(50% - 200px);
+		margin-right: calc(50% - 200px);
+	}
+	
+	.Post {
+		margin: 20px 0 20px 0 !important;
+	}
+	
+	.Post-Desc-Mobile {
+		display: block;
+	}
+	
+	.Post-Desc-Background, .Post-Desc {
+		display: none;
+	}
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+	.Post-Container {
+		width: 100%;
+		padding: 0;
+	}
+	
+	.Post-Wrapper {
+		width: 400px;
+		margin-left: calc(50% - 200px);
+		margin-right: calc(50% - 200px);
+	}
+	
+	.Post {
+		margin: 20px 0 20px 0 !important;
+	}
+	
+	.Post-Desc-Mobile {
+		display: block;
+	}
+	
+	.Post-Desc-Background, .Post-Desc {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.Post-Container {
+		width: 100%;
+		padding: 0;
+	}
+	
+	.Post-Wrapper {
+		width: 310px;
+		margin-left: calc(50% - 155px);
+		margin-right: calc(50% - 155px);
+	}
+	
+	.Post {
+		width: 310px;
+		margin: 20px 0 20px 0 !important;
+	}
+	
+	.Post-Desc-Mobile {
+		display: block;
+	}
+	
+	.Post-Desc-Background, .Post-Desc {
+		display: none;
+	}
+}

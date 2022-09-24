@@ -1,0 +1,331 @@
+#LowerNavContainer {
+	width: 100%;
+	float: left;
+	background-color: 	#234567;
+		height: 54px;
+}
+
+#Lower-Nav-Bar{
+	width: auto;
+	margin: 0;
+	float: left;
+}
+	
+#Lower-Nav-Bar-Buttons{
+	display: inline-block;
+	float: left;	
+	padding: 0;
+	margin: 0;
+}
+
+#Lower-Nav-Bar-Buttons li{
+	display: inline-block;
+	width: 132px;
+	color: white;
+	padding: 16px 0;
+	font-size: 1.25em;
+	text-align: center;
+	font-weight: 400;
+	float: left;
+	cursor: pointer;
+	transition-property: all;
+  	transition-duration: .6s;
+  	transition-timing-function: ease;
+}
+
+#Lower-Nav-Bar-Buttons li:hover{
+	color: #1c7196;
+	background-color: white;
+}
+
+#myProfileOptions {
+	display: block;
+	position: relative;
+	z-index: 9999;
+}
+
+#profileList {
+	position: absolute;
+	right: 0;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	background: #1c7196;
+}
+
+#profileList a {
+	text-decoration: none !important;
+}
+
+.profileOption {
+	display: block;
+	width: 220px;
+	color: white;
+	padding: 16px 0;
+	font-size: 1.25em;
+	text-align: center;
+	font-weight: 400;
+	clear: both;
+	cursor: pointer;
+}
+
+.profileOption:hover {
+	color: #1c7196;
+	background-color: white;
+}
+
+.P-Hidden {
+	display: none !important;
+}
+
+
+/* BUSINESS CATEGORIES */
+#Business-Categories {
+	background: white;
+	border: 2px solid #1C7196;
+}
+
+.Category-Holder {
+	float: left;
+	padding: 0 10px;
+}
+
+.Category-Holder a {
+	text-decoration: none !important; 
+}
+
+.Category-Holder p {
+	color: #1C7196;
+}
+
+.B-Hidden {
+	display: none;
+}
+
+.B-Hidden.B-Showing, .L-Hidden.L-Showing {
+	display: block;
+	position: absolute;
+	z-index: 9999;
+	top: 108px;
+}
+
+/* Classifieds CATEGORIES */
+
+#Listings-Categories {
+	background: white;
+	border: 2px solid #1C7196;
+}
+
+.L-Hidden {
+	display: none;
+}
+
+#Right-Side-Lower {
+	height: 70px;
+	margin: 0;
+	float: right;
+}
+
+#Nav-Bar-Buttons-Lower {
+	height: 70px;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	z-index: 9997;
+}
+
+#Nav-Bar-Buttons-Lower li {
+	display: inline-block;
+	color: #FFFFFF;
+	width: 132px;
+		padding: 16px 0;
+	font-size: 1.20em;
+	text-align: center;
+	font-weight: 400;
+	float: right;
+	cursor: pointer;
+	box-sizing: inherit;
+	margin: 0px;
+}
+
+#Nav-Bar-Buttons-Lower li:hover {
+  color: #005073;
+  background-color: #FFFFFF;
+}
+
+/* MOBILE */
+
+.icon{
+	display: none !important;
+}
+
+/* HAMBURGER TRANSLATION */
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 4px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-7px, 6px);
+    transform: rotate(-45deg) translate(-7px, 6px);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+@media (min-width: 426px) and (max-width: 814px) {
+	#HomeButton {
+  		display: none !important;
+  	}
+	
+	.icon {
+		width: 90px !important;
+		padding: 18px 0 !important;
+	}
+	
+	.icon:hover {
+		background-color: #005073 !important;
+	}
+	
+	/* ICON TRANSITION */
+	.container {
+		width: 35px;
+		margin: auto;
+	}
+  	
+  	ul.topnav li.icon {
+    	float: right;
+    	display: block !important;
+  	}
+
+  	ul.topnav.responsive {
+  		position: relative;
+  	}
+  	
+  	ul.topnav.responsive li {
+    	float: none;
+    	background-color: #005073;
+    	display: block !important;
+  	}
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+	#Right-Side, #Lower-Nav-Bar {
+		height: 54px;
+	}
+	
+	#HomeButton {
+  		display: none !important;
+  	}
+	
+	.icon {
+		width: 60px !important;
+		padding: 9px 0 !important;
+	}
+	
+	.icon:hover {
+		background-color: #005073 !important;
+	}
+	
+	/* ICON TRANSITION */
+	.container {
+		width: 35px;
+		margin: auto;
+	}
+	
+	#Lower-Nav-Bar-Buttons li {
+		padding: 15.5px 0;
+	}
+  	
+  	ul.topnav li.icon {
+    	float: right;
+    	display: block !important;
+  	}
+
+  	ul.topnav.responsive {
+  		position: relative;
+  	}
+  	
+  	ul.topnav.responsive li {
+    	float: none;
+    	background-color: #005073;
+    	display: block !important;
+  	}
+  	
+	#Nav-Bar-Buttons{
+		height: 54px;
+	}
+	#Nav-Bar-Buttons li{
+		width: 92px;
+		padding: 18px 0;
+		font-size: 1em;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 375px) {
+	#Right-Side, #Lower-Nav-Bar {
+		height: 54px;
+	}
+	
+	#HomeButton {
+  		display: none !important;
+  	}
+	
+	.icon {
+		width: 60px !important;
+		padding: 9px 0 !important;
+	}
+	
+	.icon:hover {
+		background-color: #005073 !important;
+	}
+	
+	/* ICON TRANSITION */
+	.container {
+		width: 35px;
+		margin: auto;
+	}
+  	
+  	ul.topnav li.icon {
+    	float: right;
+    	display: block !important;
+  	}
+
+  	ul.topnav.responsive {
+  		position: relative;
+  	}
+  	
+  	#Lower-Nav-Bar-Buttons li {
+  		width: 130px;
+		padding: 15.5px 0;
+	}
+  	
+  	ul.topnav.responsive li {
+    	float: none;
+    	background-color: #005073;
+    	display: block !important;
+  	}
+  	
+	#Nav-Bar-Buttons{
+		width: 60px;
+		height: 54px;
+	}
+	
+	#Nav-Bar-Buttons li{
+		width: 140px;
+		padding: 18px 0;
+		font-size: 1em;
+	}
+}

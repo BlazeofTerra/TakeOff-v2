@@ -1,0 +1,30 @@
+#search {
+	float: right;
+	margin: 14px 14px 14px 0px;
+}
+
+#search input, select {
+	float: left;
+	display: block;
+}
+
+#searchIndex {
+	height: 20px;
+	font-size: 14px;
+	width: 210px;
+}
+
+#searchDropdown {
+	height: 26px;
+	width: 134px;
+	font-size: 14px;
+}
+
+#searchImage {
+	height: 26px;
+	width: 26px;
+	padding: 2px;
+	border: 0;
+	background-image: url(../img/search/search.png);
+	background-repeat: no-repeat;
+}
